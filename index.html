@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.ico" type="images/x-icon">
+    <!-- swiper js link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+    <title>Trade X </title>
+</head>
+<body>
+  
+
+    <header>
+        <img src="images/menu-2.png" alt="menubar" class="menu-icon" onclick="myMenu()">
+   
+        <h2 class="logo"><a href="index.html" style="text-decoration: none; color:black;">Trade - <span>X</span></a></h2>
+        <nav>
+            <ul class="nav-links" id="menuItems">
+                <li><a href="index.html" id="active"> Home</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="Demo.html">Demo Account</a></li>
+                <li><a href="cart.html">Cart </a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+        <a href="cart.html"><img src="images/cart.png" class="menu-icon" id="cart"></a>
+        <img src="images/night-mode.png" class="icon" id="icon" onclick="myFunction()">
+    </header>
+
+<section>
+
+<div class="hero-section">
+    <div class="hero-text">
+          <p>100% Satisfaction Guarantee </p>
+          <h1>Learn Skills From Our Top Instructors</h1>
+          <a href="course.html" class="btn">Explore Courses</a>
+
+    </div>
+    <img src="images/GO.png" alt="">
+</div>
+
+<div class="tutor">
+<img src="images/tutor-2.png" alt="">
+<div class="tutor-text">
+    <p id="back">Get To Know About Us</p>
+    <h2>Discover Top Instructors  Around The World</h2>
+
+    <p id="text">Lorem ipsum dolor sit amet consectetur adipisicing  elit. <br> 
+         Harum sapiente exercitationem facilis quas?</p>
+          <a href="" class="btn"> Discover More</a>
+</div>
+</div>
+
+
+<!-- feature courses -->
+
+<div class="course">
+    <h2>Featured Courses</h2>
+        <div class="course-container">
+            <div class="course-box">
+                <div class="course-img">
+                   <img src="images/bitcoin-dollar.jpg" >
+                </div>
+                <div class="course-text">
+                   <p>Learn to trade with Bitcoin </p>
+                   <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     <br> Mollitia earum quod perspiciatis.</span>
+
+                    <p id="tutor" > Tutor : Dr Angela stone</p>
+                    <a href="bitcoin.html" class="cta"> View course</a>
+                </div>
+            </div>
+         <!--second course-->
+            <div class="course-box">
+                <div class="course-img">
+                   <img src="images/forexx.jpg" >
+                </div>
+                <div class="course-text">
+                   <p> Learn Forex Trading </p>
+                   <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     <br> Mollitia earum quod perspiciatis.</span>
+
+                    <p id="tutor"> Tutor : Dr William John</p>
+                    <a href="" class="cta"> View course</a>
+                </div>
+            </div>
+
+
+            <div class="course-box">
+                <div class="course-img">
+                   <img src="images/real estate.jpg" >
+                </div>
+                <div class="course-text">
+                   <p>Learn Real Estate Investment </p>
+                   <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     <br> Mollitia earum quod perspiciatis.</span>
+
+                    <p id="tutor"> Tutor : Mr Adam Johnson</p>
+                    <a href="" class="cta"> View course</a>
+                </div>
+            </div>
+
+
+            <div class="course-box">
+                <div class="course-img">
+                   <img src="images/nft.jpg" >
+                </div>
+                <div class="course-text">
+                   <p>Learn to Design NFTs(buying and selling) </p>
+                   <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     <br> Mollitia earum quod perspiciatis.</span>
+
+                    <p id="tutor"> Tutor : Dr  Ella Robert</p>
+                    <a href="" class="cta"> View course</a>
+                </div>
+            </div>
+
+       
+               <div class="course-box">
+                <div class="course-img">
+                   <img src="images/dropp.jpg" >
+                </div>
+                <div class="course-text">
+                   <p>Learn Drop Shipping </p>
+                   <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     <br> Mollitia earum quod perspiciatis.</span>
+
+                    <p id="tutor"> Tutor : Mr Samuel Joshua </p>
+                    <a href="" class="cta"> View course</a>
+                </div>
+            </div>
+
+
+               <div class="course-box">
+                <div class="course-img">
+                   <img src="images/affilate.jpg" >
+                </div>
+                <div class="course-text">
+                   <p>Learn Affiliate Marketing </p>
+                   <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     <br> Mollitia earum quod perspiciatis.</span>
+
+                    <p id="tutor"> Tutor : Dr Henry John</p>
+                    <a href="" class="cta"> View course</a>
+                </div>
+            </div>
+     </div>
+</div>
+
+
+<div class="categories">
+    
+    <div class="categories-text">
+        <span>Unique online course</span>
+        <h2>Browse By <span id="cat">Categories</span></h2>
+     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+      Mollitiabr quaerat voluptates  consequatur tempore sunt  Mollitiabr quaerat  ?
+     <div class="click">
+        <a href="" class="btn" id="btn">All CATEGORIES</a>
+     </div>
+    </div>
+         
+    <div class="categories-content">
+        <div class="box-content">
+           <p>NFT</p>
+           <span>200 courses</span>
+        </div>
+        <div class="box-content" >
+           <p>Cryto</p>
+           <span>140 courses</span>
+        </div>
+        <div class="box-content">
+           <p>Investment</p>
+           <span>300 courses</span>
+        </div>
+        <div class="box-content">
+           <p>Forex</p>
+           <span>230 courses</span>
+        </div>
+        <div class="box-content">
+            <p>Banking</p>
+            <span>100 courses</span>
+         </div>
+      
+            </div>
+    </div>
+    
+ <!-- what our student say -->
+
+
+
+
+
+    <div class="tutor-1">
+        <div class="tutor-text-1">
+          
+            <h2>Top <span>Class</span> Instructors</h2>
+        </div>
+        <a href="" class="btn" >ALL INSTRUCTORS</a>
+    </div>
+ 
+    <!--for instructors-->
+      
+
+        <div class="list">
+            <div class="image">
+                <img src="images/man-1.png" alt="">
+            </div>
+            <div class="image">
+                <img src="images/tutor-1.png" alt="">
+            </div>
+            <div class="image">
+                <img src="images/tutor-4.png" alt="">
+            </div>
+            <div class="image">
+                <img src="images/tutor-3.png" alt="">
+            </div>
+        </div>
+
+    
+
+<div class="link">
+    <div class="link-text">
+        <h2>Join us <span> & Spread</span> <br> Experiance</h2> 
+    </div>
+    <div class="link-text-1">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Ut doloribus aperiam, possimus id et tempore aut.</p>
+    </div>
+
+  <div class="btn-1">
+    <a href="" class="btn" >BECOME AN INSTRUCTOR</a>
+  </div>
+</div>
+
+<div class="blog">
+    <p id="news">Always Smart To Hear News  </p>
+    <h2>Latests <span>News</span> and Blogs</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas.</p>
+    <div class="blog-container">
+        <div class="blog-box">
+            <div class="blog-image">
+                <img src="images/project.jpg" alt="">
+            </div>
+            <div class="blog-text">
+                <span id="info">Skill Development</span>
+                <a href=""  class="blog-atticle">click to find out</a>
+            </div>
+        </div>
+
+        <div class="blog-box">
+            <div class="blog-image">
+                <img src="images/image-4.jpg" alt="">
+            </div>
+            <div class="blog-text">
+                <span id="info">Education</span>
+                <a href="" class="blog-atticle">click to find out</a>
+            </div>
+        </div>
+
+        <div class="blog-box">
+            <div class="blog-image">
+                <img src="images/profile-9.jpg" alt="">
+            </div>
+            <div class="blog-text">
+                <span id="info">What our lecturers teach</span>
+                <a href="" class="blog-atticle">click to find out</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!-- *******FAQ************--
+
+-->
+
+
+<div class="faqs">
+    <h2>Frequently Asked <span>Questions</span></h2>
+    <div class="container1 faq-container">
+        <article class="faq">
+            <div class="faq-icon">
+                 <img src="images/plus.png"  class="add plus">
+            </div>
+            <div class="question-answer">
+                <h4>What course is the best for me as a begineer</h4>
+                <p>The  best course for potential investors or Traders are
+                learning 
+                forex,  Nft, Etherum , click here <a href="" style="text-decoration: none;color: white;">to know more</a></p>
+            </div>
+        </article>
+
+        <article class="faq  ">
+            <div class="faq-icon">
+                <img src="images/plus.png"  class="add">
+            </div>
+            <div class="question-answer">
+                <h4>How do i buy a course on Trade-X</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Eligendi, voluptates dolorum. Quos vitae ex error atque quis explicabo fugiat culpa. 
+                  Tempora rerum alias, et doloribus sequi fugit enim unde iusto.</p>
+            </div>
+        </article>
+
+
+        <article class="faq">
+            <div class="faq-icon">
+                <img src="images/plus.png"  class="add">
+            </div>
+            <div class="question-answer">
+                <h4> The best tutors on Trade-X to learn from</h4>
+                <p>The tutors as at 2019 - 2023 are  Mr james cord , Dr angela stones,
+                    Dr Afolabi Johsua, Mr Simon dave this are the top excelling Investors
+                </p>
+            </div>
+        </article>
+
+        <article class="faq">
+            <div class="faq-icon">
+                <img src="images/plus.png"  class="add">
+            </div>
+            <div class="question-answer">
+                <h4>What course is the best for me </h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Eligendi, voluptates dolorum. Quos vitae ex error atque quis explicabo fugiat culpa. 
+                  Tempora rerum alias, et doloribus sequi fugit enim unde iusto.</p>
+            </div>
+        </article>
+
+        <article class="faq">
+            <div class="faq-icon">
+                <img src="images/plus.png"  class="add">
+            </div>
+            <div class="question-answer">
+                <h4>What course is the best for me </h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Eligendi, voluptates dolorum. Quos vitae ex error atque quis explicabo fugiat culpa. 
+                  Tempora rerum alias, et doloribus sequi fugit enim unde iusto.</p>
+            </div>
+        </article>
+
+        <article class="faq">
+            <div class="faq-icon">
+                <img src="images/plus.png"  class="add">
+            </div>
+            <div class="question-answer">
+                <h4>What course is the best for me </h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Eligendi, voluptates dolorum. Quos vitae ex error atque quis explicabo fugiat culpa. 
+                  Tempora rerum alias, et doloribus sequi fugit enim unde iusto.</p>
+            </div>
+        </article>
+
+        <article class="faq">
+            <div class="faq-icon">
+                <img src="images/plus.png"  class="add">
+            </div>
+            <div class="question-answer">
+                <h4>What course is the best for me </h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Eligendi, voluptates dolorum. Quos vitae ex error atque quis explicabo fugiat culpa. 
+                  Tempora rerum alias, et doloribus sequi fugit enim unde iusto.</p>
+            </div>
+        </article>
+
+        <article class="faq">
+            <div class="faq-icon">
+                <img src="images/plus.png"  class="add">
+            </div>
+            <div class="question-answer">
+                <h4>What course is the best for me </h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Eligendi, voluptates dolorum. Quos vitae ex error atque quis explicabo fugiat culpa. 
+                  Tempora rerum alias, et doloribus sequi fugit enim unde iusto.</p>
+            </div>
+        </article>
+    </div>
+</div>
+
+
+
+
+
+
+<!-- ***********Testimonial content**************** 
+    
+-->
+<div class="testimonial__container mySwiper" >
+    <h2>Student Testimonial</h2>
+    <div class="swiper-wrapper">
+        <div class="testimonial  swiper-slide">
+            <div class="aveter">
+                <img src="images/image-3.jpg " alt="">
+            </div>
+            <div class="testimonial__info">
+                <small><h4>Deji Suraj</h4></small>
+            </div>
+            <div class="testimonial__body">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Recusandae eveniet architecto quam cum expedita.
+                    </p>
+            </div>
+        </div>
+
+
+        <div class="testimonial  swiper-slide">
+            <div class="aveter">
+                <img src="images/image-3.jpg " alt="">
+            </div>
+            <div class="testimonial__info">
+                <small><h4>John Patrick</h4></small>
+            </div>
+            <div class="testimonial__body">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Recusandae eveniet architecto quam cum expedita.
+                    </p>
+            </div>
+        </div>
+
+
+
+        <div class="testimonial swiper-slide">
+            <div class="aveter">
+                <img src="images/image-3.jpg " alt="">
+            </div>
+            <div class="testimonial__info">
+                <small><h4>DEJI SURAG</h4></small>
+            </div>
+            <div class="testimonial__body">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Recusandae eveniet architecto quam cum expedita.
+                    </p>
+            </div>
+        </div>
+
+
+        <div class="testimonial swiper-slide">
+            <div class="aveter">
+                <img src="images/image-3.jpg " alt="">
+            </div>
+            <div class="testimonial__info">
+                <small><h4>DEJI SURAG</h4></small>
+            </div>
+            <div class="testimonial__body">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Recusandae eveniet architecto quam cum expedita.
+                    </p>
+            </div>
+        </div>
+
+
+        <div class="testimonial  swiper-slide">
+            <div class="aveter">
+                <img src="images/user-1.jpg " alt="">
+            </div>
+            <div class="testimonial__info">
+                <small><h4>DEJI SURAG</h4></small>
+            </div>
+            <div class="testimonial__body">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Recusandae eveniet architecto quam cum expedita.
+                    </p>
+            </div>
+        </div>
+
+
+        <div class="testimonial  swiper-slide">
+            <div class="aveter">
+                <img src="images/image-3.jpg " alt="">
+            </div>
+            <div class="testimonial__info">
+                <small><h4>DEJI SURAG</h4></small>
+            </div>
+            <div class="testimonial__body">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Recusandae eveniet architecto quam cum expedita.
+                    </p>
+            </div>
+        </div>
+        <!-- the ending of testimonail container -->
+       
+    </div>
+    <!-- pagination icon  -->
+    <div class="swiper-pagination"></div>
+   
+</div>
+
+
+
+
+
+
+
+<!-- *****footer********** -->
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-row">
+            <div class="footer-col">
+            <ul class="footer-nav">
+                <li><a href=""><span>></span>Activate Account</a></li>
+                <li><a href=""><span>></span>Our Business</a></li>
+                <li><a href=""><span>></span>Courses</a></li>
+                <li><a href=""><span>></span>Blog</a></li>
+                <li><a href=""><span>></span>Home</a></li>
+              </ul>
+            </div>
+  
+            <div class="footer-col">
+                <ul  class="footer-nav">
+                  <li><a href=""> <span>></span>  Switch to real account</a></li>
+                  <li><a href=""> <span>></span> Demo ccount</a></li>
+                  <li><a href=""><span>></span>Trading excercise</a></li>
+                  <li><a href=""><span>></span>My profile</a></li>
+                  <li><a href=""><span>></span>Sign in</a></li>
+                </ul>
+              </div>
+  
+              <div class="footer-col">
+                <ul  class="footer-nav">
+                  <li><a href=""><span>></span>Teach on Trade-X</a></li>
+                  <li><a href=""><span>></span>Get the app</a></li>
+                  <li><a href=""><span>></span>Contact us</a></li>
+                  <li><a href=""><span>></span>Help and Support</a></li>
+                  <li><a href=""><span>></span>Affiliate</a></li>
+                </ul>
+              </div>
+  
+              <div class="footer-col">
+                <ul  class="footer-nav">
+                  <li><a href=""><span>></span>Terms</a></li>
+                  <li><a href=""><span>></span>Privacy Policies</a></li>
+                  <li><a href=""><span>></span>Cookie Settings</a></li>
+                  <li><a href=""><span>></span>Sitemap</a></li>
+                  <li><a href=""><span>></span>Accessibilities </a></li>
+                </ul>
+              </div>
+  
+              <div class="footer-col">
+                <ul  class="footer-nav">
+                  <li><a href=""><span>></span>Investors</a></li>
+                  <li><a href=""><span>></span>Careers</a></li>
+                  <li><a href=""><span>></span>My activities</a></li>
+                  <li><a href=""><span>></span>Portfolio</a></li>
+                  <li><a href=""><span>></span>Log out</a></li>
+                </ul>
+              </div>
+        </div>
+        <form class="form-subscribe"   action="https://formspree.io/f/xvojgjke" method="POST">
+            <h2>Subscribe</h2>
+            <label for="email"></label>
+           <input type="email" placeholder="Enter your email...." required  name="email" class="footer-sub">
+           <button> Submit</button>
+        </form>
+    </div> 
+</footer>
+<div class="cursor1"></div>
+<div class="cursor2"></div>
+  
+
+
+
+
+
+
+
+
+
+<script src="faq.js"></script>
+    <script src="menu.js"></script>
+    <script src="slide.js"></script>
+<script src="dropColor.js"></script>
+<script src="animation.js"></script>
+
+<!-- swiper js   -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="swiper.js"></script>
+
+  </section>
+</body>
+</html>
